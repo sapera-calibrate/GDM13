@@ -1,0 +1,7 @@
+{
+  "block_size": 16,
+  "num_chaotic_points": 128,
+  "rounds": 4,
+  "similarity_threshold": 0.85,
+  "use_blake3": false
+}
