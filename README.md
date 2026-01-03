@@ -1,8 +1,6 @@
-<p align="center">
-  <img src="docs/protrace_logo.png" alt="ProTrace logo" width="180"/>
-</p>
 
-# ProTrace GDM13 — Grid-Diffusion Mapping (13 refinements)  
+
+# GDM13 — Grid-Diffusion Mapping (13 refinements)  
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)  ![Status](https://img.shields.io/badge/status-active-success)
 
 
