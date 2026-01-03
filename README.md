@@ -322,38 +322,3 @@ async def verify_image(file: UploadFile, fingerprint: dict):
     # Similar implementation for verification
     pass
 ```
-
-## Next Steps for Enhancement
-
-1. **Hardening**: 
-   - Integrate with HSM for key management
-   - Implement epoch-based key rotation
-   - Add support for distributed key management
-
-2. **Performance**:
-   - Compile critical paths to Rust/C extensions
-   - Implement GPU acceleration for large-scale processing
-   - Add caching layer for frequently accessed fingerprints
-
-3. **Calibration**:
-   - Run calibration suite across various image modifications
-   - Auto-tune thresholds based on use case
-   - Generate ROC curves for threshold selection
-
-4. **API Development**:
-   - Build REST API with FastAPI
-   - Add WebSocket support for real-time verification
-   - Implement batch processing endpoints
-
-<!-- Proprietary project: no public license -->
-
-## Contributing
-
-Contributions are welcome! Please submit pull requests with:
-- Unit tests for new features
-- Documentation updates
-- Performance benchmarks for optimizations
-
-## Support
-
-For issues and questions, please open an issue on the repository.
